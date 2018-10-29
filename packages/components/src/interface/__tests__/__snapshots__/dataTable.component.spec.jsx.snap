@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable should render properly 1`] = `
+<dataTablecomponent__WrapperDataTable>
+  <dataTablecomponent__StyledDataTable>
+    Foo
+  </dataTablecomponent__StyledDataTable>
+</dataTablecomponent__WrapperDataTable>
+`;
+
+exports[`DataTableCell should render head version 1`] = `
+<dataTablecomponent__StyledCell>
+  <dataTablecomponent__CellContent
+    inputProps={
+      Object {
+        "foo": "bar",
+      }
+    }
+    variant="dataTable"
+  >
+    Bar
+  </dataTablecomponent__CellContent>
+</dataTablecomponent__StyledCell>
+`;
+
+exports[`DataTableCell should render properly 1`] = `
+<dataTablecomponent__StyledCell>
+  <dataTablecomponent__CellContent
+    variant="dataTable"
+  >
+    Bar
+  </dataTablecomponent__CellContent>
+</dataTablecomponent__StyledCell>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader should render properly 1`] = `
+<pageHeadercomponent__PageHeaderWrapper
+  centered={false}
+  className=""
+  vertical={false}
+>
+  <div>
+    <WithCurrentApp(Breadcrumb)
+      location={
+        Object {
+          "pathname": "foo",
+        }
+      }
+      match={
+        Object {
+          "params": Object {},
+        }
+      }
+      steps={
+        Array [
+          "foo",
+          "bar",
+        ]
+      }
+    />
+    <typographycomponent__Typography
+      variant="headline"
+    >
+      Foo
+    </typographycomponent__Typography>
+  </div>
+</pageHeadercomponent__PageHeaderWrapper>
+`;

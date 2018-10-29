@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadButton should render properly 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+>
+  <FatActionButton
+    component={[Function]}
+    htmlFor="bar"
+    icon="folder"
+    text={
+      <React.Fragment>
+        foo
+        <input
+          accept="jpg,jpeg,png,pdf"
+          hidden={true}
+          id="bar"
+          name="bar"
+          onChange={[Function]}
+          type="file"
+        />
+      </React.Fragment>
+    }
+  />
+</InputGroup>
+`;
+
+exports[`UploadButton should render with value 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+>
+  <FatActionButton
+    component={[Function]}
+    htmlFor="bar"
+    icon="folder"
+    text={
+      <React.Fragment>
+        foo
+        <input
+          accept="jpg,jpeg,png,pdf"
+          hidden={true}
+          id="bar"
+          name="bar"
+          onChange={[Function]}
+          type="file"
+        />
+      </React.Fragment>
+    }
+  />
+  <uploadButtoncomponent__FileUploaded
+    key="hello"
+  >
+    <IconButton
+      disabled={true}
+      hollow={false}
+      icon="folder"
+      iconProps={Object {}}
+      type="button"
+    />
+    <uploadButtoncomponent__FileUploadedName>
+      hello
+    </uploadButtoncomponent__FileUploadedName>
+    <IconButton
+      hollow={true}
+      icon="cross"
+      iconProps={
+        Object {
+          "size": 8,
+        }
+      }
+      onClick={[Function]}
+      type="button"
+    />
+  </uploadButtoncomponent__FileUploaded>
+</InputGroup>
+`;

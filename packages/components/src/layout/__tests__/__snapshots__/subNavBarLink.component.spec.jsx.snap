@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubNavBarLink should render properly 1`] = `
+<NavLink
+  component={[Function]}
+  data-test-id=""
+  exact={false}
+  location={
+    Object {
+      "pathname": "foo",
+    }
+  }
+  match={
+    Object {
+      "params": Object {},
+    }
+  }
+  params={Object {}}
+  to="bar"
+>
+  <typographycomponent__Typography
+    variant="header"
+  >
+    Foo
+  </typographycomponent__Typography>
+</NavLink>
+`;

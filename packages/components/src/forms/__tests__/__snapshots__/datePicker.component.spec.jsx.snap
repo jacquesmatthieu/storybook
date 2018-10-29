@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker should render properly 1`] = `
+<datePickercomponent__DateInput
+  input={
+    Object {
+      "name": "foo",
+    }
+  }
+  meta={Object {}}
+  type="date"
+/>
+`;

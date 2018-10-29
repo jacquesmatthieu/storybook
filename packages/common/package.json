@@ -1,0 +1,12 @@
+{
+  "name": "@arborescence/common",
+  "version": "1.0.0",
+  "description": "Common code between apps",
+  "private": true,
+  "main": "./src/common.js",
+  "dependencies": {
+    "@arborescence/config": "^1.0.0",
+    "graphql-tag": "^2.9.2",
+    "moment": "^2.22.2"
+  }
+}

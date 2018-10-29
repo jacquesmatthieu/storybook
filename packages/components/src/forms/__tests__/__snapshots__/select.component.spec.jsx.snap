@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render with default props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+  name="foo"
+>
+  <selectcomponent__StyledSelect
+    error={false}
+    id="foo"
+    name="foo"
+    valid={true}
+  >
+    <option
+      key="foo"
+      value="foo"
+    >
+      Foo
+    </option>
+    <option
+      key="bar"
+      value="bar"
+    >
+      Bar
+    </option>
+  </selectcomponent__StyledSelect>
+  <selectcomponent__SelectIcon
+    name="arrow"
+    size={15}
+    stroke="grey.dark"
+    strokeWidth={1}
+  />
+</InputGroup>
+`;
+
+exports[`Select should render with specified props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label="bar"
+  name="foo"
+>
+  <selectcomponent__StyledSelect
+    error={true}
+    id="foo"
+    name="foo"
+  >
+    <option
+      key="foo"
+      value="foo"
+    >
+      Foo
+    </option>
+    <option
+      key="bar"
+      value="bar"
+    >
+      Bar
+    </option>
+  </selectcomponent__StyledSelect>
+  <selectcomponent__SelectIcon
+    name="arrow"
+    size={15}
+    stroke="grey.dark"
+    strokeWidth={1}
+  />
+</InputGroup>
+`;

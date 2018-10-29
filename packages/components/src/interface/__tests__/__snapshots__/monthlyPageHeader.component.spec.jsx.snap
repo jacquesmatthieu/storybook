@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MonthlyPageHeader should render properly 1`] = `
+<monthlyPageHeadercomponent__Container
+  className=""
+>
+  <WithCurrentApp(Breadcrumb)
+    location={
+      Object {
+        "pathname": "foo",
+      }
+    }
+    match={
+      Object {
+        "params": Object {},
+      }
+    }
+    steps={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+  />
+  <monthlyPageHeadercomponent__MonthSelector>
+    <IconButton
+      data-test-id="previousMonthButton"
+      hollow={false}
+      icon="arrow"
+      iconProps={
+        Object {
+          "direction": "left",
+        }
+      }
+      onClick={[Function]}
+    />
+    <monthlyPageHeadercomponent__MonthSelectorText
+      variant="headlineContainer"
+    >
+      November 2018
+    </monthlyPageHeadercomponent__MonthSelectorText>
+    <IconButton
+      data-test-id="nextMonthButton"
+      hollow={false}
+      icon="arrow"
+      iconProps={
+        Object {
+          "direction": "right",
+        }
+      }
+      onClick={[Function]}
+    />
+  </monthlyPageHeadercomponent__MonthSelector>
+</monthlyPageHeadercomponent__Container>
+`;

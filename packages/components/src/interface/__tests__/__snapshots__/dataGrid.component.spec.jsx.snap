@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataGrid should render properly 1`] = `
+<dataGridcomponent__StyledDataGrid
+  columns={
+    Array [
+      "foo",
+      "bar",
+      "baz",
+    ]
+  }
+  rows={
+    Array [
+      42,
+      69,
+    ]
+  }
+>
+  <dataGridcomponent__DataGridHeadItem
+    h={1}
+    key="hello"
+    variant="tableHead"
+    w={1}
+    x={0}
+    y={-1}
+  >
+    hello
+  </dataGridcomponent__DataGridHeadItem>
+  <dataGridcomponent__DataGridHeadItem
+    h={1}
+    key="world"
+    variant="tableHead"
+    w={1}
+    x={1}
+    y={-1}
+  >
+    world
+  </dataGridcomponent__DataGridHeadItem>
+  Foo
+</dataGridcomponent__StyledDataGrid>
+`;
+
+exports[`DataGridItem should render properly 1`] = `
+<dataGridcomponent__StyledDataGridItem
+  h={69}
+  variant="table"
+  w={13}
+  x={1}
+  y={42}
+>
+  <tableRowcomponent__AntiOverflow>
+    Bar
+  </tableRowcomponent__AntiOverflow>
+</dataGridcomponent__StyledDataGridItem>
+`;
+
+exports[`DataGridRow should render properly 1`] = `
+<Fragment>
+  <dataGridcomponent__StyledDataGridRow
+    h={69}
+    x={0}
+    y={42}
+  />
+  Bar
+  <dataGridcomponent__DataGridRowGap
+    h={1}
+    w={1}
+    x={0}
+    y={111}
+  />
+</Fragment>
+`;

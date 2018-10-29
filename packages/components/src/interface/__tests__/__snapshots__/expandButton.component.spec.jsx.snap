@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpandButton should render with default props 1`] = `
+<expandButtoncomponent__ButtonOverride
+  expanded={false}
+  hollow={true}
+>
+  <expandButtoncomponent__ButtonInner>
+    Foo
+    <expandButtoncomponent__ExpandIcon
+      expanded={false}
+    >
+      <Icon
+        direction="down"
+        name="arrow"
+        theme={
+          Object {
+            "palette": Object {},
+          }
+        }
+      />
+    </expandButtoncomponent__ExpandIcon>
+  </expandButtoncomponent__ButtonInner>
+</expandButtoncomponent__ButtonOverride>
+`;
+
+exports[`ExpandButton should render with specified props 1`] = `
+<expandButtoncomponent__ButtonOverride
+  additionalProp="foo"
+  expanded={true}
+  hollow={true}
+>
+  <expandButtoncomponent__ButtonInner>
+    Foo
+    <expandButtoncomponent__ExpandIcon
+      expanded={true}
+    >
+      <Icon
+        direction="up"
+        name="arrow"
+        theme={
+          Object {
+            "palette": Object {},
+          }
+        }
+      />
+    </expandButtoncomponent__ExpandIcon>
+  </expandButtoncomponent__ButtonInner>
+</expandButtoncomponent__ButtonOverride>
+`;

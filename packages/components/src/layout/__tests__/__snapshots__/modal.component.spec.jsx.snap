@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render properly 1`] = `
+<Portal>
+  <modalcomponent__ModalWrapper
+    onKeyDown={[Function]}
+  >
+    <modalcomponent__ModalShade
+      onClick={[Function]}
+    />
+    <modalcomponent__ModalCard>
+      <modalcomponent__ModalTitle
+        variant="headline"
+      >
+        Foo
+      </modalcomponent__ModalTitle>
+      Bar
+    </modalcomponent__ModalCard>
+  </modalcomponent__ModalWrapper>
+</Portal>
+`;

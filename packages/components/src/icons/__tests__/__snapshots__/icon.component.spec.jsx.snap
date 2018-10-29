@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render properly 1`] = `
+<Arrow
+  className=""
+  direction="down"
+  fill="none"
+  size={10}
+  stroke="rebeccapurple"
+  strokeWidth={2}
+/>
+`;

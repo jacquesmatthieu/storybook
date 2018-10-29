@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading should render error 1`] = `
+<AppError
+  error="foo"
+  t={[MockFunction]}
+/>
+`;
+
+exports[`Loading should render properly 1`] = `
+<AppLoading
+  appId="foo"
+/>
+`;

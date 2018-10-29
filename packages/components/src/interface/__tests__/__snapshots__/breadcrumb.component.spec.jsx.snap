@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb should render properly 1`] = `
+<breadcrumbcomponent__Bread>
+  <breadcrumbcomponent__Crumb
+    key="baz-0"
+    variant="breadcrumb"
+  >
+    baz
+  </breadcrumbcomponent__Crumb>
+  <breadcrumbcomponent__Crumb
+    key="foo-1"
+    variant="breadcrumb"
+  >
+    foo
+  </breadcrumbcomponent__Crumb>
+  <breadcrumbcomponent__Crumb
+    key="bar-2"
+    variant="breadcrumb"
+  >
+    bar
+  </breadcrumbcomponent__Crumb>
+</breadcrumbcomponent__Bread>
+`;

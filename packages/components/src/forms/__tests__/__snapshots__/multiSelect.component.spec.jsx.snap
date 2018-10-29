@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render with default props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+  name="foo"
+>
+  <multiSelectcomponent__WrapperDropdown>
+    <Component />
+  </multiSelectcomponent__WrapperDropdown>
+</InputGroup>
+`;
+
+exports[`Dropdown should render with default props 2`] = `
+<Fragment>
+  <multiSelectcomponent__InvisibleInput />
+  <multiSelectcomponent__StyledMultiSelect
+    disabled={false}
+    error={false}
+    innerRef={[Function]}
+    onClick={[MockFunction]}
+    onKeyDown={[Function]}
+    open={false}
+    tabIndex={0}
+  >
+    Foo
+    <multiSelectcomponent__SelectIcon
+      direction="down"
+      name="arrow"
+      size={15}
+      stroke="grey.dark"
+      strokeWidth={1}
+    />
+  </multiSelectcomponent__StyledMultiSelect>
+  <multiSelectcomponent__StyledMultiSelectDropdown
+    open={false}
+  >
+    <Checkbox
+      checked={true}
+      key="foo"
+      name="-foo"
+      onChange={[Function]}
+      selected={true}
+      type="checkbox"
+      value="foo"
+    >
+      Foo
+    </Checkbox>
+    <Checkbox
+      checked={false}
+      key="bar"
+      name="-bar"
+      onChange={[Function]}
+      selected={false}
+      type="checkbox"
+      value="bar"
+    >
+      Bar
+    </Checkbox>
+  </multiSelectcomponent__StyledMultiSelectDropdown>
+</Fragment>
+`;
+
+exports[`Dropdown should render with specified props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label="bar"
+  name="foo"
+>
+  <multiSelectcomponent__WrapperDropdown>
+    <Component />
+  </multiSelectcomponent__WrapperDropdown>
+</InputGroup>
+`;
+
+exports[`Dropdown should render with specified props 2`] = `
+<Fragment>
+  <multiSelectcomponent__InvisibleInput />
+  <multiSelectcomponent__StyledMultiSelect
+    disabled={false}
+    error={true}
+    innerRef={[Function]}
+    onClick={[MockFunction]}
+    onKeyDown={[Function]}
+    open={true}
+    tabIndex={0}
+    valid={true}
+  >
+    Foo
+    <multiSelectcomponent__SelectIcon
+      direction="up"
+      name="arrow"
+      size={15}
+      stroke="grey.dark"
+      strokeWidth={1}
+    />
+  </multiSelectcomponent__StyledMultiSelect>
+  <multiSelectcomponent__StyledMultiSelectDropdown
+    open={true}
+  >
+    <Checkbox
+      checked={true}
+      key="foo"
+      name="bar-foo"
+      onChange={[Function]}
+      selected={true}
+      type="checkbox"
+      value="foo"
+    >
+      Foo
+    </Checkbox>
+    <Checkbox
+      checked={false}
+      key="bar"
+      name="bar-bar"
+      onChange={[Function]}
+      selected={false}
+      type="checkbox"
+      value="bar"
+    >
+      Bar
+    </Checkbox>
+  </multiSelectcomponent__StyledMultiSelectDropdown>
+</Fragment>
+`;

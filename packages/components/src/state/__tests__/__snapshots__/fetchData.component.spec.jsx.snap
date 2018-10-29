@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FetchData should render error state 1`] = `
+<AppError
+  error={true}
+  t={[MockFunction]}
+/>
+`;
+
+exports[`FetchData should render loaded state 1`] = `"{\\"hello\\":\\"world\\"}"`;
+
+exports[`FetchData should render loading state 1`] = `
+<Query
+  query={
+    Object {
+      "foo": "bar",
+    }
+  }
+>
+  <Component />
+</Query>
+`;
+
+exports[`FetchData should render loading state 2`] = `
+<WithCurrentApp(Loading)
+  location={
+    Object {
+      "pathname": "foo",
+    }
+  }
+  match={
+    Object {
+      "params": Object {},
+    }
+  }
+/>
+`;
+
+exports[`FetchData should render wrapped component wioth HOC 1`] = `
+<FetchData
+  query={
+    Object {
+      "foo": "bar",
+    }
+  }
+>
+  <Component />
+</FetchData>
+`;
+
+exports[`FetchData should render wrapped component wioth HOC 2`] = `
+<WrappedComponent
+  data={
+    Object {
+      "hello": "world",
+    }
+  }
+/>
+`;

@@ -1,0 +1,7 @@
+{
+  "name": "@arborescence/selectors",
+  "version": "1.0.0",
+  "description": "Selectors package for styles",
+  "private": true,
+  "main": "./selectors"
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should render properly 1`] = `
+<searchBarcomponent__StyledWrapper>
+  <searchBarcomponent__StyledSearchBar
+    variant="input"
+  >
+    <Icon
+      fill="grey.dark"
+      name="search"
+      size={20}
+      theme={
+        Object {
+          "palette": Object {},
+        }
+      }
+    />
+    <searchBarcomponent__StyledSearchInput
+      onChange={[Function]}
+    />
+  </searchBarcomponent__StyledSearchBar>
+</searchBarcomponent__StyledWrapper>
+`;

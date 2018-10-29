@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render multi line input 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+  name="foo"
+>
+  <StyledTextArea
+    error={false}
+    fullWidth={false}
+    id="foo"
+    name="foo"
+    rows={3}
+    type="text"
+  />
+</InputGroup>
+`;
+
+exports[`Input should render with default props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label=""
+  name="foo"
+>
+  <inputcomponent__StyledInput
+    error={false}
+    fullWidth={false}
+    id="foo"
+    name="foo"
+    type="text"
+  />
+</InputGroup>
+`;
+
+exports[`Input should render with specified props 1`] = `
+<InputGroup
+  className=""
+  fullWidth={false}
+  label="bar"
+  name="foo"
+>
+  <inputcomponent__StyledInput
+    error={true}
+    fullWidth={false}
+    id="foo"
+    name="foo"
+    type="text"
+    valid={true}
+  />
+</InputGroup>
+`;

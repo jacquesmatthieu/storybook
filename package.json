@@ -1,0 +1,61 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "A storybook exemple",
+  "main": "index.js",
+  "repository": "https://github.com/jacquesmatthieu/storybook.git",
+  "author": "Matthieu Jacques",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
+  "engines": {
+    "node": ">=9.5.0",
+    "yarn": ">= 1.7.0"
+  },
+  "scripts": {
+    "start": "storybook",
+    "lint": "eslint '**/*.{js,jsx,mjs}'",
+    "storybook": ": ${PORT:=9001} && start-storybook -c ./packages/storybook -p $PORT"
+    
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-jsx-remove-data-test-id": "^1.1.4",
+    "babel-plugin-styled-components": "^1.5.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "error-overlay-webpack-plugin": "^0.1.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.9.1",
+    "fast-async": "^6.3.8",
+    "favicons-webpack-plugin": "^0.0.9",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "npm-run-all": "^4.1.3",
+    "raw-loader": "^0.5.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "styled-components": "^3.3.3",
+    "terser-webpack-plugin": "^1.1.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-pwa-manifest": "^3.7.1"
+  }
+}

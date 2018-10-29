@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render with default props 1`] = `
+<checkboxcomponent__LabelCheckbox
+  hasLabel={true}
+  htmlFor="foo"
+>
+  <checkboxcomponent__InputCheckbox
+    id="foo"
+    name="foo"
+  />
+  <checkboxcomponent__StyledCheckbox
+    selected={false}
+  />
+  <typographycomponent__Typography
+    variant="input"
+  >
+    Bar
+  </typographycomponent__Typography>
+</checkboxcomponent__LabelCheckbox>
+`;
+
+exports[`Checkbox should render with specified props 1`] = `
+<checkboxcomponent__LabelCheckbox
+  hasLabel={true}
+  htmlFor="foo"
+>
+  <checkboxcomponent__InputCheckbox
+    id="foo"
+    name="foo"
+  />
+  <checkboxcomponent__StyledCheckbox
+    selected={true}
+  />
+  <typographycomponent__Typography
+    variant="input"
+  >
+    Bar
+  </typographycomponent__Typography>
+</checkboxcomponent__LabelCheckbox>
+`;

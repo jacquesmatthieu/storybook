@@ -1,0 +1,32 @@
+{
+  "name": "@arborescence/components",
+  "version": "1.0.0",
+  "description": "Shared components package",
+  "main": "./src/components.js",
+  "private": true,
+  "dependencies": {
+    "@arborescence/common": "^1.0.0",
+    "@arborescence/config": "^1.0.0",
+    "@arborescence/selectors": "^1.0.0",
+    "autosuggest-highlight": "^3.1.1",
+    "connected-react-router": "^4.3.0",
+    "lodash": "^4.17.10",
+    "lottie-web": "^5.2.1",
+    "markdown-to-jsx": "^6.8.3",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0",
+    "react-i18next": "^7.10.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0"
+  }
+}

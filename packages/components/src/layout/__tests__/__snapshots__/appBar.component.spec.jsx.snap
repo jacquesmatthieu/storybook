@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppBar should render fixed version 1`] = `
+<appBarcomponent__AppBarWrapper
+  fixed={true}
+>
+  <appBarcomponent__AppSwitcher>
+    <Component />
+  </appBarcomponent__AppSwitcher>
+  <appBarcomponent__AppBarLinks />
+  <appBarcomponent__UserDropDownButton
+    onClick={[Function]}
+  >
+    <appBarcomponent__Avatar
+      src="baz"
+    />
+    <typographycomponent__Typography
+      variant="header"
+    >
+      foo
+       
+      bar
+    </typographycomponent__Typography>
+    <appBarcomponent__UserDropdownIcon>
+      <Icon
+        direction="down"
+        name="arrow"
+        theme={
+          Object {
+            "palette": Object {},
+          }
+        }
+      />
+    </appBarcomponent__UserDropdownIcon>
+  </appBarcomponent__UserDropDownButton>
+</appBarcomponent__AppBarWrapper>
+`;
+
+exports[`AppBar should render properly 1`] = `
+<appBarcomponent__AppBarWrapper
+  fixed={false}
+>
+  <appBarcomponent__AppSwitcher>
+    <Component />
+  </appBarcomponent__AppSwitcher>
+  <appBarcomponent__AppBarLinks />
+  <appBarcomponent__UserDropDownButton
+    onClick={[Function]}
+  >
+    <appBarcomponent__Avatar
+      src="baz"
+    />
+    <typographycomponent__Typography
+      variant="header"
+    >
+      foo
+       
+      bar
+    </typographycomponent__Typography>
+    <appBarcomponent__UserDropdownIcon>
+      <Icon
+        direction="down"
+        name="arrow"
+        theme={
+          Object {
+            "palette": Object {},
+          }
+        }
+      />
+    </appBarcomponent__UserDropdownIcon>
+  </appBarcomponent__UserDropDownButton>
+</appBarcomponent__AppBarWrapper>
+`;
+
+exports[`AppBar should render properly 2`] = `
+<Fragment>
+  <appBarcomponent__AppSwitcherButton
+    data-test-id="appSwitcherButton"
+    onClick={[MockFunction]}
+  >
+    <appBarcomponent__AppLogo
+      alt="Foo logo"
+      src="foo"
+    />
+    <typographycomponent__Typography
+      variant="title"
+    >
+      Foo
+    </typographycomponent__Typography>
+    <appBarcomponent__DropDownIcon>
+      <Icon
+        direction="up"
+        name="arrow"
+        theme={
+          Object {
+            "palette": Object {},
+          }
+        }
+      />
+    </appBarcomponent__DropDownIcon>
+  </appBarcomponent__AppSwitcherButton>
+  <appBarcomponent__AppSwitcherMenu
+    open={true}
+  >
+    <appBarcomponent__AppLink
+      data-test-id="barAppLink"
+      key="bar"
+      to="bar"
+    >
+      <appBarcomponent__AppLinkLogo
+        color="#bar"
+        src="bar"
+      />
+      <appBarcomponent__AppName
+        variant="title"
+      >
+        Bar
+      </appBarcomponent__AppName>
+      <appBarcomponent__DropDownIcon
+        color="#bar"
+      >
+        <Icon
+          direction="right"
+          name="arrow"
+          theme={
+            Object {
+              "palette": Object {},
+            }
+          }
+        />
+      </appBarcomponent__DropDownIcon>
+    </appBarcomponent__AppLink>
+  </appBarcomponent__AppSwitcherMenu>
+</Fragment>
+`;

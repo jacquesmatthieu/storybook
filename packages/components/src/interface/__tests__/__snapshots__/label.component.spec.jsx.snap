@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should render properly 1`] = `
+<labelcomponent__LabelWrapper
+  color="foo"
+  variant="input"
+>
+  Bar
+</labelcomponent__LabelWrapper>
+`;

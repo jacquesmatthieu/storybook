@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render link version 1`] = `
+<buttoncomponent__StyledButton
+  color="primary"
+  hollow={false}
+  href="yolo"
+>
+  <typographycomponent__Typography
+    variant="input"
+  >
+    Text
+  </typographycomponent__Typography>
+</buttoncomponent__StyledButton>
+`;
+
+exports[`Button should render properly 1`] = `
+<buttoncomponent__StyledButton
+  color="primary"
+  hollow={false}
+>
+  <typographycomponent__Typography
+    variant="input"
+  >
+    Text
+  </typographycomponent__Typography>
+</buttoncomponent__StyledButton>
+`;
+
+exports[`Button should render with given style 1`] = `
+<buttoncomponent__StyledButton
+  color="secondary"
+  hollow={true}
+>
+  <typographycomponent__Typography
+    variant="input"
+  >
+    Text
+  </typographycomponent__Typography>
+</buttoncomponent__StyledButton>
+`;

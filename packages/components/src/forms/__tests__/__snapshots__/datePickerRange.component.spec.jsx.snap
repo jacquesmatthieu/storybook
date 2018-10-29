@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePickerRange should render properly 1`] = `
+<datePickerRangecomponent__StyledWrapperDatePickerRange
+  variant="input"
+>
+  <datePickerRangecomponent__StyledWrapperDatePicker>
+    <datePickerRangecomponent__StyledDatePickerInput
+      max=""
+      onChange={[Function]}
+      placeholder=""
+      type="date"
+      value=""
+    />
+    <Icon
+      fill="grey.main"
+      name="slash"
+      size={20}
+      theme={
+        Object {
+          "palette": Object {},
+        }
+      }
+    />
+    <datePickerRangecomponent__StyledDatePickerInput
+      min=""
+      onChange={[Function]}
+      placeholder=""
+      type="date"
+      value=""
+    />
+  </datePickerRangecomponent__StyledWrapperDatePicker>
+</datePickerRangecomponent__StyledWrapperDatePickerRange>
+`;

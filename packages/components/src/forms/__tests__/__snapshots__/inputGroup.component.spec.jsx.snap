@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup should render with default props 1`] = `
+<inputGroupcomponent__InputGroupWrapper
+  className=""
+  fullWidth={false}
+  variant="input"
+>
+  <typographycomponent__Typography
+    htmlFor="foo"
+    variant="inputLabel"
+  />
+  Bar
+</inputGroupcomponent__InputGroupWrapper>
+`;
+
+exports[`InputGroup should render with specified props 1`] = `
+<inputGroupcomponent__InputGroupWrapper
+  className=""
+  fullWidth={false}
+  variant="input"
+>
+  <typographycomponent__Typography
+    htmlFor="foo"
+    variant="inputLabel"
+  >
+    bar
+  </typographycomponent__Typography>
+  Bar
+</inputGroupcomponent__InputGroupWrapper>
+`;

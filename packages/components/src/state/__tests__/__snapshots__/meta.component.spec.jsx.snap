@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta should render properly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    foo - 
+    Foogère
+  </title>
+  Foo
+</HelmetWrapper>
+`;
+
+exports[`Meta should render with default app 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    foo - 
+    Arborescence
+  </title>
+  Foo
+</HelmetWrapper>
+`;
+
+exports[`Meta should render with no title prop 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <title>
+    Foogère
+  </title>
+  Foo
+</HelmetWrapper>
+`;

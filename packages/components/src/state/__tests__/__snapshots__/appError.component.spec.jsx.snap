@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppError should render properly 1`] = `
+<appErrorcomponent__ErrorWrapper>
+  <typographycomponent__Typography
+    variant="headline"
+  >
+    error.title
+  </typographycomponent__Typography>
+  <br />
+  <typographycomponent__Typography
+    variant="body"
+  >
+    error.appError
+  </typographycomponent__Typography>
+  <br />
+  <br />
+  <Button
+    color="primary"
+    hollow={true}
+    onClick={[Function]}
+    type="button"
+  >
+    reload
+  </Button>
+</appErrorcomponent__ErrorWrapper>
+`;
+
+exports[`AppError should render with error details 1`] = `
+<appErrorcomponent__ErrorWrapper>
+  <typographycomponent__Typography
+    variant="headline"
+  >
+    error.title
+  </typographycomponent__Typography>
+  <br />
+  <typographycomponent__Typography
+    variant="body"
+  >
+    error.appError
+  </typographycomponent__Typography>
+  <br />
+  <appErrorcomponent__ErrorCodeBlock>
+    Awesome stack trace
+  </appErrorcomponent__ErrorCodeBlock>
+  <br />
+  <Button
+    color="primary"
+    hollow={true}
+    onClick={[Function]}
+    type="button"
+  >
+    reload
+  </Button>
+</appErrorcomponent__ErrorWrapper>
+`;

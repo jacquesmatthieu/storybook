@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FatActionButton should render properly 1`] = `
+<fatActionButtoncomponent__FatButton>
+  <fatActionButtoncomponent__IconCircle>
+    <Icon
+      name="plus"
+      size={15}
+      theme={
+        Object {
+          "palette": Object {},
+        }
+      }
+    />
+  </fatActionButtoncomponent__IconCircle>
+  <fatActionButtoncomponent__ButtonText>
+    Foo
+  </fatActionButtoncomponent__ButtonText>
+</fatActionButtoncomponent__FatButton>
+`;

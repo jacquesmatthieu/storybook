@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should handle close 1`] = `
+<div>
+  opened: false
+</div>
+`;
+
+exports[`Dropdown should render properly 1`] = `
+<div>
+  opened: false
+</div>
+`;
